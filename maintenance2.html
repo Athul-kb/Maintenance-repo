@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portal Maintenance</title>
+  <!-- Google Fonts: Montserrat, Poppins, or Nunito -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(140deg, #f3eafa 0%, #a492ea 100%);
+      color: #392f54;
+      font-family: 'Montserrat', Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      width: 100%;
+      background: #fff;
+      border-bottom: 1.5px solid #f3eafa;
+      min-height: 62px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 0 32px;
+      box-sizing: border-box;
+      box-shadow: 0 4px 14px rgba(170, 154, 250, 0.04);
+    }
+    .logo {
+      font-family: 'Montserrat', Arial, sans-serif;
+      color: #7b68ee;
+      font-weight: 700;
+      font-size: 2.1rem;
+      letter-spacing: .04em;
+    }
+    main {
+      flex: 1 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .maintenance-card {
+      background: #fff;
+      padding: 3.5rem 2.5rem 2.5rem 2.5rem;
+      border-radius: 18px;
+      box-shadow: 0 6px 32px 0 rgba(123,104,238,.14);
+      max-width: 490px;
+      width: 100%;
+      text-align: center;
+    }
+    .maintenance-card h1 {
+      font-size: 2.2rem;
+      color: #7b68ee;
+      margin-bottom: .8em;
+      font-weight: 700;
+      letter-spacing: .015em;
+    }
+    .maintenance-card p {
+      font-size: 1.075rem;
+      margin-bottom: 1.6em;
+      color: #483d6f;
+      font-weight: 400;
+      letter-spacing: .01em;
+    }
+    .contact-link {
+      display: inline-block;
+      padding: 12px 40px;
+      font-size: 1rem;
+      font-weight: bold;
+      background: #7b68ee;
+      color: #fff;
+      border:none;
+      border-radius: 30px;
+      box-shadow: 0 2px 8px #e4d4ff75;
+      text-decoration: none;
+      transition: background .19s;
+      outline: none;
+    }
+    .contact-link:hover, .contact-link:focus {
+      background: #9886d8;
+    }
+    footer {
+      background: #fff;
+      color: #a49fc3;
+      text-align: center;
+      padding: 18px 0 14px 0;
+      font-size: 0.98rem;
+      letter-spacing: .03em;
+      border-top: 1.5px solid #f1e6fc;
+      flex-shrink: 0;
+      font-family: 'Montserrat', Arial, sans-serif;
+    }
+    @media (max-width:600px) {
+      .maintenance-card { padding: 2rem 1rem; }
+      header { padding: 0 10px; }
+      .logo { font-size: 1.5rem; 
+              text-decoration: none;
+            }
+
+    }
+      .logo {
+    text-decoration: none;
+  }
+  </style>
+</head>
+<body>
+ <header>
+  <!-- Real logo SVG/Base64 can go here for full brand fidelity -->
+  <a href="https://asista.com" class="logo">asista</a>
+</header>
+  <main>
+<div class="maintenance-card">
+  <!-- Warning/Maintenance SVG Icon -->
+  <svg width="60" height="60" viewBox="0 0 60 60" style="margin-bottom: 18px;" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="30" cy="30" r="28" stroke="#7b68ee" stroke-width="4" fill="#f3eafa"/>
+    <rect x="27.5" y="16" width="5" height="22" rx="2.5" fill="#7b68ee"/>
+    <circle cx="30" cy="44" r="3" fill="#7b68ee"/>
+  </svg>
+  <h1>We're Under Temporary  Maintenance </h1>
+  <p>We're working to enhance your experience. Please check back soon.<br>If you need updates, <a class="contact-link"   href="mailto:support@asista.com" target="_blank">Contact Support</a></p>
+</div>
+
+  </main>
+  <footer>
+    © Asista Software Solutions Private Limited.
+  </footer>
+</body>
+</html>
